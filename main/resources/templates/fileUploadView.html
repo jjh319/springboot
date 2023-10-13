@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>fileUploadView</title>
+</head>
+
+<body>
+    <h3>/templates/fileUploadView.html</h3>
+    <hr>
+
+    <form action="/fileUpload" method="POST" enctype="multipart/form-data">
+        <div>1. Name: <input type="text" name="name"></div>
+        <div>2. file: <input type="file" name="files" multiple></div>
+        <div>3. file: <input type="file" name="files"></div>
+        <div>4. file: <input type="file" name="files"></div>
+        <div>5. file: <input type="file" name="files"></div>
+        <div>6. file: <input type="file" name="files"></div>
+        <div>7. file: <input type="submit" value="Upload"></div>
+    </form>
+</body>
+
+</html>
